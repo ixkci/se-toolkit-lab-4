@@ -1,0 +1,27 @@
+name: Lab Task
+description: Track work for a specific lab task
+title: "[Task] <short title>"
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Summarize what this task is about in your own words.
+      placeholder: "Implement X, configure Y..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this task is done?
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Plan
+      description: Rough steps you plan to take (update as you go).
+      placeholder: "- Step 1\n- Step 2"
