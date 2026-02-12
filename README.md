@@ -36,7 +36,7 @@ A senior engineer explains your first assignment:
 
 Read the tasks and complete them by yourself.
 
-When stuck or unsure, ask an LLM:
+When stuck or not sure, ask an LLM:
 
 > Give me directions on how to solve this task. I want to maximize learning.
 
