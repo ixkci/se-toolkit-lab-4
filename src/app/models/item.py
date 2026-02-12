@@ -24,9 +24,9 @@ class BaseItem(BaseModel):
     Attributes:
         id: Unique identifier for this item.
         type: The type of item (e.g., 'course', 'lab', 'task', 'step').
+        icon: An icon of the item.
         titles: Localized titles (e.g., {'en': 'Lab 01'}).
         descriptions: Localized descriptions.
-        items: Nested child items forming a tree structure.
     """
 
     # TODO document the remaining attributes
