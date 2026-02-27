@@ -476,12 +476,12 @@ Method 2:
 
 ### Install the extension
 
-1. Open the `Extensions`.
+1. [Open the `Extensions`](#open-the-extensions).
 2. Write:
-   - Option 1: extension name
+   - Option 1: the extension name
 
       Example: `GitHub Copilot Chat`
-   - Option 2: extension identifier
+   - Option 2: the extension identifier
 
       Format: `<extension-publisher>.<extension-name>`
 
