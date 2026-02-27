@@ -10,7 +10,7 @@
 
 `Caddy` is an open-source [web server](./web-development.md#web-server) used in this project as a reverse proxy. A reverse proxy is a server that sits in front of a backend [service](./web-development.md#service) and forwards incoming client requests to it.
 
-In this project, `Caddy` receives requests from clients and forwards them to the `app` [service](./docker.md#service) running inside the `Docker` network.
+In this project, `Caddy` serves the front-end static files and forwards API requests to the `app` [service](./docker.md#service) running inside the `Docker` network.
 
 Docs:
 
